@@ -85,7 +85,6 @@ def partB(q_cond_current=Q_COND):
         print("{0}. Surrounding temperature: {1} K. Surface temperature {2:.4f} K".format(i, t_surr_b, t_s_real_b))
     
     return t_s_b_values, t_surr_b_values
-    # partB_graph(t_s_b_values, t_surr_b_values)
 
 def partB_graph(t_s_b_vals, t_surr_b_vals):
     """ Graphing portion """
