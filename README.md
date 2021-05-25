@@ -1,5 +1,5 @@
 # ME-113-Projects
- Two projects in the SJSU ME 113 course for Fall 2020
+ Two thermodynamics projects in the SJSU ME 113 course for Fall 2020
 
 ## First Project
 #### Engine outer surface temperature investigation for oil autoignition 
