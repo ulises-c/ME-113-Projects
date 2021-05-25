@@ -110,7 +110,7 @@ def partC():
 
     for k in range (13):
         heat_flux_list = []
-        q_cond_c = q_cond_c_start + k * 500
+        q_cond_c = q_cond_c_start + k * 500 # Incrementing conductivity by 500 each loop
         heat_flux_list.append(q_cond_c)
         print("Heat flux {0} w/m^2".format(q_cond_c))
         t_s_c_values, t_surr_c_values = partB(q_cond_c)
