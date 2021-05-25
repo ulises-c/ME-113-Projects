@@ -102,9 +102,10 @@ def partB_graph(t_s_b_vals, t_surr_b_vals):
 def partC():
     print(DASHES)
     print("PART C")
-    heat_flux_2d = [] # 2d list
-    t_s_2d = [] # 2d list
-    t_surr_2d = [] # 2d list
+    heat_flux_2d = []
+    t_s_2d = []
+    t_surr_2d = []
+    # ^^^ The lists above eventually become 2d lists
     q_cond_c_start = 2000 # W/m^2 , changed compared to original
 
     for k in range (13):
