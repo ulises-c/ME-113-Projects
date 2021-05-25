@@ -194,6 +194,7 @@ def problem_7():
 # Anaylze the entire problem
 def problem_8():
     print("\n----- Problem 8 -----\n")
+    "Written problem for the report"
     # Work increases as the temperature rises and the pressure lowers.
     # Efficiency increases as work increases.
 
@@ -201,7 +202,9 @@ T_increment = 50 #°C
 P_increment = 500 #kPa
 
 q1_dot = problem_1()
+
 q3_dot = problem_2()
+
 plant_eff = problem_3(0,0)
 
 W_turb_values_const_T_300, P1_ideal_values = problem_4(0, T1_ideal)
@@ -214,15 +217,3 @@ turbine_work_const_T = problem_6(W_turb_values_const_T_300, P1_ideal_values, W_t
 turbine_work_const_P = problem_6(W_turb_values_const_P_2000, T1_ideal_values, W_turb_values_const_P_2500, T1_ideal_values, "pressure", "temperature", "°C", "kPa", 2500, 2000)
 
 problem_7()
-
-# eff_const_P_no_inc = problem_3(0,0)
-# eff_const_P = problem_3(0,P_increment)
-
-# eff_const_T_no_inc = problem_3(0,0)
-# eff_const_T = problem_3(T_increment, 0)
-
-# print("")
-# print(eff_const_P_no_inc)
-# print(eff_const_P)
-# print(eff_const_T_no_inc)
-# print(eff_const_T)
