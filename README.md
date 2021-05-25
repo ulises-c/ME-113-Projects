@@ -10,7 +10,8 @@
 
 ## Second Project
 #### Steam Power Plant Analysis
-- Consider a steam power plant. Steam leaves the boiler at P1 = 2MPa pressure and T1 = 300°C temperature. It enters the turbine by losing some heat along its path with a delta = 5% change in its pressure and temperature. Turbine generates power and releases the saturated mixture at 15 kPa with 90% quality factor to the condenser that cools it down to 45°C at constant pressure. The condenser releases heat to the environment and pushes the liquid to a pump that perform work (4kJ/kg) to push the liquid to the boiler where it is turned to steam by adding heat. Find 
+- Consider a steam power plant. Steam leaves the boiler at P1 = 2MPa pressure and T1 = 300°C temperature. It enters the turbine by losing some heat along its path with a delta = 5% change in its pressure and temperature. Turbine generates power and releases the saturated mixture at 15 kPa with 90% quality factor to the condenser that cools it down to 45°C at constant pressure. The condenser releases heat to the environment and pushes the liquid to a pump that perform work (4kJ/kg) to push the liquid to the boiler where it is turned to steam by adding heat.
+- Find the following:
 - 1.	Heat released to the environment from boiler to turbine inlet
 - 2.	Heat released from the condenser 
 - 3.	Efficiency of the plant 
